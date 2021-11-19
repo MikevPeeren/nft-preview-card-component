@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="bg-dark-blue-one min-h-screen flex flex-col justify-center items-center">
-        <div className="bg-dark-blue-two w-10/12 md:w-5/12 lg:w-4/12 xl:w-3/12 2xl:w-2/12 flex flex-col justify-center items-start rounded-2xl px-6">
+        <div className="bg-dark-blue-two w-10/12 md:w-5/12 lg:w-4/12 xl:w-3/12 2xl:w-3/12 flex flex-col justify-center items-start rounded-2xl px-6">
           <div className="w-full my-6">
             <Image
               src={EQUILIBRIUM}
