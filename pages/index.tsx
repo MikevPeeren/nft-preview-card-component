@@ -32,7 +32,7 @@ const Home: NextPage = () => {
               Our Equilibrium collection promotes balance and calm.
             </h2>
           </div>
-          <div className="flex flex-row justify-between w-full my-4">
+          <div className="flex flex-row justify-between w-full mt-6">
             <div className="flex flex-row">
               <div className="flex items-center">
                 <Image
@@ -51,6 +51,10 @@ const Home: NextPage = () => {
               <p className="px-2 text-soft-blue">0.041 ETH</p>
             </div>
           </div>
+
+          <hr className="text-dark-blue-three w-full my-4" />
+
+          <div></div>
         </div>
       </main>
 
