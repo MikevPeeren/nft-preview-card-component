@@ -5,6 +5,7 @@ import Image from "next/image";
 import EQUILIBRIUM from "../public/image-equilibrium.jpg";
 import ETHEREUM_ICON from "../public/icon-ethereum.svg";
 import CLOCK_ICON from "../public/icon-clock.svg";
+import AVATAR from "../public/image-avatar.png";
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +18,7 @@ const Home: NextPage = () => {
 
       <main className="bg-dark-blue-one min-h-screen flex flex-col justify-center items-center">
         <div className="bg-dark-blue-two w-10/12 md:w-5/12 lg:w-4/12 xl:w-3/12 2xl:w-2/12 flex flex-col justify-center items-start rounded-2xl px-6">
-          <div className="w-full my-8">
+          <div className="w-full my-6">
             <Image
               src={EQUILIBRIUM}
               className="rounded-2xl"
@@ -42,19 +43,32 @@ const Home: NextPage = () => {
                   layout="fixed"
                 />
               </div>
-              <p className="px-2 text-cyan"> 0.041 ETH</p>
+              <p className="px-2 text-cyan">0.041 ETH</p>
             </div>
             <div className="flex flex-row">
               <div className="flex items-center">
                 <Image src={CLOCK_ICON} width={17} height={17} layout="fixed" />
               </div>
-              <p className="px-2 text-soft-blue">0.041 ETH</p>
+              <p className="px-2 text-soft-blue">3 days left</p>
             </div>
           </div>
 
           <hr className="text-dark-blue-three w-full my-4" />
 
-          <div></div>
+          <div className="flex flex-row items-center mb-6">
+            <div className="flex flex-row items-center">
+              <Image
+                src={AVATAR}
+                className="imageBorder"
+                width={30}
+                height={30}
+                layout="fixed"
+              />
+            </div>
+            <p className="mx-2 text-white font-normal">
+              <span className="text-soft-blue">Creation of</span> Jules Wyvern
+            </p>
+          </div>
         </div>
       </main>
 
