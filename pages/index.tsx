@@ -3,6 +3,8 @@ import Head from "next/head";
 import Image from "next/image";
 
 import EQUILIBRIUM from "../public/image-equilibrium.jpg";
+import ETHEREUM_ICON from "../public/icon-ethereum.svg";
+import CLOCK_ICON from "../public/icon-clock.svg";
 
 const Home: NextPage = () => {
   return (
@@ -14,8 +16,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="bg-dark-blue-one min-h-screen flex flex-col justify-center items-center">
-        <div className="bg-dark-blue-two w-2/12 flex justify-center items-center rounded-2xl">
-          <div className="w-full h-2/4 my-8 mx-4">
+        <div className="bg-dark-blue-two w-10/12 md:w-5/12 lg:w-4/12 xl:w-3/12 2xl:w-2/12 flex flex-col justify-center items-start rounded-2xl px-6">
+          <div className="w-full my-8">
             <Image
               src={EQUILIBRIUM}
               className="rounded-2xl"
@@ -23,6 +25,31 @@ const Home: NextPage = () => {
               height={200}
               layout="responsive"
             />
+          </div>
+          <div>
+            <h1>Equilibrium #3429</h1>
+            <h2 className="mt-2">
+              Our Equilibrium collection promotes balance and calm.
+            </h2>
+          </div>
+          <div className="flex flex-row justify-between w-full my-4">
+            <div className="flex flex-row">
+              <div className="flex items-center">
+                <Image
+                  src={ETHEREUM_ICON}
+                  width={11}
+                  height={18}
+                  layout="fixed"
+                />
+              </div>
+              <p className="px-2 text-cyan"> 0.041 ETH</p>
+            </div>
+            <div className="flex flex-row">
+              <div className="flex items-center">
+                <Image src={CLOCK_ICON} width={17} height={17} layout="fixed" />
+              </div>
+              <p className="px-2 text-soft-blue">0.041 ETH</p>
+            </div>
           </div>
         </div>
       </main>
