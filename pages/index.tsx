@@ -66,7 +66,10 @@ const Home: NextPage = () => {
               />
             </div>
             <p className="mx-2 text-white font-normal">
-              <span className="text-soft-blue">Creation of</span> Jules Wyvern
+              <span className="text-soft-blue">Creation of </span>
+              <span className="hover:text-cyan cursor-pointer">
+                Jules Wyvern
+              </span>
             </p>
           </div>
         </div>
