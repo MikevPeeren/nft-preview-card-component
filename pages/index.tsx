@@ -6,8 +6,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Four Card Feature Section</title>
-        <meta name="description" content="Four Card Feature Section" />
+        <title>NFT Preview Card Component</title>
+        <meta name="description" content="NFT Preview Card Component" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
