@@ -19,8 +19,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="bg-dark-blue-one min-h-screen flex flex-col justify-center items-center">
-        <div className="bg-dark-blue-two w-10/12 md:w-5/12 lg:w-4/12 xl:w-3/12 2xl:w-3/12 flex flex-col justify-center items-start rounded-2xl px-6">
-          <div className="w-full h-auto my-6 overflow-hidden relative">
+        <div className="bg-dark-blue-two shadow-2xl w-10/12 md:w-5/12 lg:w-4/12 xl:w-3/12 2xl:w-3/12 flex flex-col justify-center items-start rounded-2xl px-6">
+          <div className="drop-shadow-xl w-full h-auto my-6 overflow-hidden relative">
             <Image
               src={EQUILIBRIUM}
               alt="Image of the NFT Equilibrium"
@@ -47,8 +47,13 @@ const Home: NextPage = () => {
             </Link>
           </div>
           <div>
-            <h1 className="hover:text-cyan cursor-pointer">
-              Equilibrium #3429
+            <h1>
+              <a
+                href="https://mikevpeeren.nl"
+                className="hover:text-cyan cursor-pointer"
+              >
+                Equilibrium #3429
+              </a>
             </h1>
             <h2 className="mt-2">
               Our Equilibrium collection promotes balance and calm.
