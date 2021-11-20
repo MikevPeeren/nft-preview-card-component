@@ -41,8 +41,6 @@ const Home: NextPage = () => {
                   width={48}
                   height={48}
                   priority
-                  placeholder="blur"
-                  blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUFJOsBwABYQDJy8FxnwAAAABJRU5ErkJggg=="
                   layout="fixed"
                 />
               </div>
@@ -65,8 +63,6 @@ const Home: NextPage = () => {
                   width={11}
                   height={18}
                   priority
-                  placeholder="blur"
-                  blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUFJOsBwABYQDJy8FxnwAAAABJRU5ErkJggg=="
                   layout="fixed"
                 />
               </div>
@@ -80,8 +76,6 @@ const Home: NextPage = () => {
                   width={17}
                   height={17}
                   priority
-                  placeholder="blur"
-                  blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUFJOsBwABYQDJy8FxnwAAAABJRU5ErkJggg=="
                   layout="fixed"
                 />
               </div>
@@ -100,8 +94,6 @@ const Home: NextPage = () => {
                 width={30}
                 height={30}
                 priority
-                placeholder="blur"
-                blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUFJOsBwABYQDJy8FxnwAAAABJRU5ErkJggg=="
                 layout="fixed"
               />
             </div>
