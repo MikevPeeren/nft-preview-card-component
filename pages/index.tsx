@@ -29,7 +29,6 @@ const Home: NextPage = () => {
               height={200}
               priority
               placeholder="blur"
-              blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUFJOsBwABYQDJy8FxnwAAAABJRU5ErkJggg=="
               layout="responsive"
             />
             <Link href="https://mikevpeeren.nl">
