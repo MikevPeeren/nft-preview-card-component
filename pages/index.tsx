@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 import EQUILIBRIUM from "../public/image-equilibrium.jpg";
 import ETHEREUM_ICON from "../public/icon-ethereum.svg";
@@ -27,10 +28,12 @@ const Home: NextPage = () => {
               width={200}
               height={200}
               priority
+              placeholder="blur"
+              blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUFJOsBwABYQDJy8FxnwAAAABJRU5ErkJggg=="
               layout="responsive"
             />
-            <div className="nftImageOverlay bg-cyan bg-opacity-50 opacity-0 hover:opacity-100 hover:cursor-pointer rounded-xl absolute w-full h-full top-1/2 left-1/2 flex justify-center items-center transition duration-700 ease-in-out">
-              <a href="https://mikevpeeren.nl">
+            <Link href="https://mikevpeeren.nl">
+              <div className="nftImageOverlay bg-cyan bg-opacity-50 opacity-0 hover:opacity-100 hover:cursor-pointer rounded-xl absolute w-full h-full top-1/2 left-1/2 flex justify-center items-center transition duration-700 ease-in-out">
                 <Image
                   src={VIEW_ICON}
                   alt=""
@@ -38,10 +41,12 @@ const Home: NextPage = () => {
                   width={48}
                   height={48}
                   priority
+                  placeholder="blur"
+                  blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUFJOsBwABYQDJy8FxnwAAAABJRU5ErkJggg=="
                   layout="fixed"
                 />
-              </a>
-            </div>
+              </div>
+            </Link>
           </div>
           <div>
             <h1 className="hover:text-cyan cursor-pointer">
@@ -59,6 +64,9 @@ const Home: NextPage = () => {
                   alt=""
                   width={11}
                   height={18}
+                  priority
+                  placeholder="blur"
+                  blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUFJOsBwABYQDJy8FxnwAAAABJRU5ErkJggg=="
                   layout="fixed"
                 />
               </div>
@@ -71,6 +79,9 @@ const Home: NextPage = () => {
                   alt=""
                   width={17}
                   height={17}
+                  priority
+                  placeholder="blur"
+                  blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUFJOsBwABYQDJy8FxnwAAAABJRU5ErkJggg=="
                   layout="fixed"
                 />
               </div>
@@ -88,6 +99,9 @@ const Home: NextPage = () => {
                 className="imageBorder"
                 width={30}
                 height={30}
+                priority
+                placeholder="blur"
+                blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOUFJOsBwABYQDJy8FxnwAAAABJRU5ErkJggg=="
                 layout="fixed"
               />
             </div>
