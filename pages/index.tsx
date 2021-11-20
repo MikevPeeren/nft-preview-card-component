@@ -93,7 +93,7 @@ const Home: NextPage = () => {
             <div className="flex flex-row items-center">
               <Image
                 src={AVATAR}
-                alt="Sellor of the NFT, in this case Jules Wyvern"
+                alt="Seller of the NFT, in this case Jules Wyvern"
                 className="imageBorder"
                 width={30}
                 height={30}

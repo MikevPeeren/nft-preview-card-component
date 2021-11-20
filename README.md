@@ -29,13 +29,13 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/nextjs-tailwindcss-Ffg4Sh3yn)
 - Live Site URL: [Website](https://nft-preview-card-component-one.vercel.app/)
 
 ## My process
 
 I have developed using a Desktop First approach. I implemented the components piece by piece, when this was done I combined them and made the layout more responsive.
-I tried implementing Glassmorphism but it did not appear that great on this component.
+I tried implementing Glassmorphism but it did not appear that great on this component due to the conflicting background colors.
 
 ### Built with
 
