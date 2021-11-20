@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - NFT preview card component solution
 
-## Getting Started
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### The challenge
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Users should be able to:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
-## Learn More
+### Screenshot
 
-To learn more about Next.js, take a look at the following resources:
+![desktop-design](/public/preview.jpg)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Solution URL: [Solution]()
+- Live Site URL: [Website](https://nft-preview-card-component-one.vercel.app/)
 
-## Deploy on Vercel
+## My process
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I have developed using a Desktop First approach. I implemented the components piece by piece, when this was done I combined them and made the layout more responsive.
+I tried implementing Glassmorphism but it did not appear that great on this component.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Built with
+
+- Desktop-first workflow
+- [SASS](https://sass-lang.com/) - Stylesheet language
+- [Next.js](https://nextjs.org/) - React framework
+- [React](https://reactjs.org/) - JS library
+- [Tailwindcss](https://tailwindcss.com/) - CSS framework
+
+### What I learned
+
+I have learned a bit more about Glassmorphism and image overlaying with hover states.
+
+### Useful resources
+
+- [Tailwind Cheatsheet](https://nerdcave.com/tailwind-cheat-sheet) - A Cheatsheet for Tailwind.
+- [Glassmorphism](https://uxdesign.cc/glassmorphism-in-user-interfaces-1f39bb1308c9) - Glassmorphism
+
+## Author
+
+- Website - [Mike van Peeren](https://mikevpeeren.nl/)
+- Frontend Mentor - [@MikevPeeren](https://www.frontendmentor.io/profile/MikevPeeren)
+- Linkedin - [@MikevPeeren](https://www.linkedin.com/in/mikevpeeren/)
+- Github - [@MikevPeeren](https://www.github.com/MikevPeeren)
+- GitLab - [@MikevPeeren](https://www.gitlab.com/MikevPeeren)
